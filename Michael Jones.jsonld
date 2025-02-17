@@ -60,12 +60,12 @@
       {
         "@type": "Link",
         "label": "LinkedIn",
-        "uri": "www.linkedin.com/in/michael-jones-b4827512"
+        "uri": "https://www.linkedin.com/in/michael-jones-b4827512"
       },
       {
         "@type": "Identity",
         "label": "Website",
-        "uri": "michaelleejones.com"
+        "uri": "https://michaelleejones.com"
       }
     ]
   }
