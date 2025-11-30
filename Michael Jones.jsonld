@@ -28,7 +28,14 @@
         },
         "paymentAddress": "CIP119:paymentAddress",
         "givenName": "CIP119:givenName",
-        "image": "CIP119:image",
+        "image": {
+          "@id": "CIP119:image",
+          "@context": {
+            "ImageObject": "https://schema.org/ImageObject",
+            "contentUrl": "CIP119:contentUrl",
+            "sha256": "CIP119:sha256"
+          }
+        },
         "objectives": "CIP119:objectives",
         "motivations": "CIP119:motivations",
         "qualifications": "CIP119:qualifications",
@@ -51,23 +58,29 @@
       }
     }
   },
+  "authors": [],
   "hashAlgorithm": "blake2b-256",
   "body": {
     "givenName": "Michael Jones",
-    "objectives": "I am committed to strengthening Cardano's decentralization by advocating for a diverse ecosystem of operators, builders, and participants from all backgrounds. My priorities: (1) Uphold the Constitution as the foundation of all governance decisions; (2) Ensure technical parameters support network security, scalability, and long-term sustainability; (3) Champion policies that empower developers and builders to create world-class tooling and dApps; (4) Promote transparency by publishing my voting rationale for every governance action. I envision Cardano achieving global adoption as critical infrastructure for finance, identity, and beyond—built on a thriving developer community and truly decentralized governance.",
+    "image": {
+      "@type": "ImageObject",
+      "contentUrl": "",
+      "sha256": "735c89e05b587497c92fa6ebac3eef7731938fab60576b8b6e6fe6871f5afb5b"
+    },
     "motivations": "With over 20 years in technology—spanning enterprise systems architecture, leadership, and blockchain development—I've seen firsthand how centralized systems fail their users. I discovered Cardano over five years ago and was drawn to its research-first methodology and long-term sustainability vision. As a builder in this ecosystem, I've developed dApps, smart contracts, tooling, and infrastructure that serve our community. I believe governance decisions should be made by those who understand both the technical implications and the human impact. I'm not here for short-term gains; my stake is aligned with Cardano's long-term success, and I want to ensure our network thrives for generations.",
-    "qualifications": "20+ years of professional technology experience in enterprise systems, technical architecture, and leadership roles. Active Cardano ecosystem builder for 5+ years: developed dApps, smart contracts, developer tooling, and infrastructure. Deep understanding of blockchain technology, consensus mechanisms, and the technical parameters that govern network health. Constitution-first approach to voting decisions, combined with independent technical judgment. Long-term ADA holder with interests directly aligned with network success. Committed to transparency and accessibility—I will publish my voting rationale and remain available to discuss governance with delegators.",
+    "objectives": "I am committed to strengthening Cardano's decentralization by advocating for a diverse ecosystem of operators, builders, and participants from all backgrounds. My priorities: (1) Uphold the Constitution as the foundation of all governance decisions; (2) Ensure technical parameters support network security, scalability, and long-term sustainability; (3) Champion policies that empower developers and builders to create world-class tooling and dApps; (4) Promote transparency by publishing my voting rationale for every governance action. I envision Cardano achieving global adoption as critical infrastructure for finance, identity, and beyond—built on a thriving developer community and truly decentralized governance.",
     "paymentAddress": "addr1q9usk5fjz37fdyptphr0ex0mtpuvxqk8sgy58s4nfmy9z9cvh009gw5x7h9pw2mauppx79l9fhzhvyyz5s4v729wnvaqgg6y2a",
+    "qualifications": "20+ years of professional technology experience in enterprise systems, technical architecture, and leadership roles. Active Cardano ecosystem builder for 5+ years: developed dApps, smart contracts, developer tooling, and infrastructure. Deep understanding of blockchain technology, consensus mechanisms, and the technical parameters that govern network health. Constitution-first approach to voting decisions, combined with independent technical judgment. Long-term ADA holder with interests directly aligned with network success. Committed to transparency and accessibility—I will publish my voting rationale and remain available to discuss governance with delegators.",
     "references": [
       {
         "@type": "Link",
         "label": "LinkedIn",
-        "uri": "https://www.linkedin.com/in/michael-jones-b4827512"
+        "uri": "www.linkedin.com/in/michael-jones-b4827512"
       },
       {
         "@type": "Identity",
         "label": "Website",
-        "uri": "https://michaelleejones.com"
+        "uri": "michaelleejones.com"
       }
     ]
   }
